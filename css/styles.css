@@ -8,4 +8,12 @@ body.splash {background: #b21212;}
 .red {color:#b21212;}
 
 h1.title {color: #b21212;font-weight: bold;}
+h3 {margin-top: 0;margin-bottom: 0;}
 a.btn {color: #fff;background: #b21212;text-transform: uppercase;width: 220px;}
+a.btn:hover {color: #fff;}
+.mt15 {margin-top: 15px;}
+
+.doors {height: 170px;max-width: 200px;background: #000;margin: 0 auto;}
+.doors .frame{}
+
+.container {padding-top: 15px;padding-bottom: 15px;}

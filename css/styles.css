@@ -1,2 +1,11 @@
+body.splash {background: #b21212;}
 .center{text-align:center;}	
 .door{display: inline-block;}
+
+.logo img {width: 100%;}
+.logo h1 {color: #fff;font-weight: bold;margin-top: 0;}
+
+.red {color:#b21212;}
+
+h1.title {color: #b21212;font-weight: bold;}
+a.btn {color: #fff;background: #b21212;text-transform: uppercase;width: 220px;}

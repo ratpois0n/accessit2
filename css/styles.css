@@ -1,2 +1,11 @@
 .center{text-align:center;}	
 .door{display: inline-block;}
+.header-logo{
+    color:#b11111;
+    text-align: center;
+    font-weight: bold;}
+
+.sub_title{text-align:center;
+    /*color:#b11111;*/
+
+     }

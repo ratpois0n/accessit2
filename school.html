@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>High School</title>
+    <title>KIPP</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,7 +18,7 @@
     <link href="css/styles.css" rel="stylesheet">
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -27,15 +27,68 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body class="school">
 
     <div class="container">
-      <div class="jumbotron center" >
-          <input type="text" class="form-control" placeholder="Search" >
-          <img src="img/kipp.png" style="margin-top:25px;width:100%" />
-          <img src="img/school_nav.png" style="width:100%" />
-
-        </div> <!-- /container -->
+		<div class="jumbotron center">
+			<form>
+				<input type="text" class="form-control" placeholder="Search">
+			</form>
+			<img class="school_logo" src="img/kipp.png" />
+			<img class="school_nav" src="img/school_nav.png" />
+		</div>
+		
+		<div class="panel-group">
+			<div class="">
+				<div>
+					<h4>Sports</h4>
+					<ul>
+						<li>Varsity Football</li>
+						<li>Basketball</li>
+						<li>Soccer</li>
+						<li>Track</li>
+						<li>Cheerleading</li>
+					</ul>
+				</div>
+				<div>
+					<h4>AP Classes</h4>
+					<ul>
+						<li>Biology</li>
+						<li>World History</li>
+						<li>Statistics</li>
+						<li>English</li>
+						<li>Spanish</li>
+					</ul>
+				</div> 
+				<div>
+					<h4>Clubs/Activities</h4>
+					<ul>
+						<li>Band</li>
+						<li>Drama</li>
+						<li>Statistics</li>
+						<li>Tiger Woods Learning Center</li>
+					</ul>
+				</div>
+				<div>
+					<h4>Demographics</h4>
+					<ul>
+						<li>91% African American</li>
+						<li>7% Latino</li>
+						<li>1% Caucasian </li>
+					</ul>
+				</div> 
+				<div>
+					<h4>Partnerships</h4>
+					<ul>
+						<li>Deloite</li>
+						<li>Colleges</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		
+    </div> <!-- /container -->
 
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->

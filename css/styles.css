@@ -9,7 +9,6 @@ body.splash {background: #b21212;}
 .yellow {color:#fbae17;}
 
 h1.title {color: #b21212;font-weight: bold;}
-<<<<<<< HEAD
 a.btn {color: #fff;background: #b21212;text-transform: uppercase;width: 220px;}.door{display: inline-block;}
 .header-logo{
     color:#b11111;
@@ -29,7 +28,6 @@ a.btn {color: #fff;background: #b21212;text-transform: uppercase;width: 220px;}.
     float:right;
     text-align: right;
 }
-=======
 h3 {margin-top: 0;margin-bottom: 0;}
 a.btn {color: #fff;background: #b21212;text-transform: uppercase;}
 a.btn:hover {color: #000;}
@@ -62,4 +60,3 @@ footer.panel a {width: 25%;display: block;float: left;height: 60px;color: #000;t
 .container {padding-top: 15px;padding-bottom: 15px;}
 
 form {padding: 15px;max-width: 400px;margin: 0 auto;}
->>>>>>> FETCH_HEAD

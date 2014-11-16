@@ -2,19 +2,41 @@ body.splash {background: #b21212;}
 .center{text-align:center;}	
 .door{display: inline-block;}
 
-.logo img {width: 100%;}
+.logo img {width: 100%;max-width: 225px;}
 .logo h1 {color: #fff;font-weight: bold;margin-top: 0;}
 
 .red {color:#b21212;}
+.yellow {color:#fbae17;}
 
 h1.title {color: #b21212;font-weight: bold;}
 h3 {margin-top: 0;margin-bottom: 0;}
-a.btn {color: #fff;background: #b21212;text-transform: uppercase;width: 220px;}
-a.btn:hover {color: #fff;}
+a.btn {color: #fff;background: #b21212;text-transform: uppercase;}
+a.btn:hover {color: #000;}
 .mt15 {margin-top: 15px;}
 
-.doors {height: 170px;max-width: 200px;background: #000;margin: 0 auto;}
+.access {margin-bottom: 15px;}
+.access img {width: 225px;}
+
+.doors {}
 .doors .frame{}
+.doors img{}
+
+.doors_button_wrap {max-width: 200px;margin: 0 auto;}
+.doors_button_wrap .doors_wrap {}
+.doors_button_wrap .doors_wrap img {width: 100%;}
+.doors_button_wrap .doors_wrap img.doors {margin-top: -300px;width: 90%;}
+.doors_button_wrap .doors_wrap img.steps {margin-top: 100px;}
+
+.buttons {}
+.buttons a.btn {float: none;display: block;margin: 0 auto;max-width: 200px;margin-top: 15px;}
+
+footer.panel {position: fixed;bottom: 0;margin: 0;width: 100%;background: #ccc;}
+footer.panel a {width: 25%;display: block;float: left;height: 60px;color: #000;text-align: center;font-size: 10px;}
+.icon {height: 30px;width: 30px;margin: 0 auto;margin-top: 8px;background-size: contain;background-repeat: no-repeat;background-position: 50% 50%;margin-bottom: 5px;}
+.icon.faq {background-image:url('../img/faq.png');}
+.icon.scholarships {background-image:url('../img/scholarships.png');}
+.icon.about {background-image:url('../img/about.png');}
+.icon.programs {background-image:url('../img/programs.png');}
 
 .container {padding-top: 15px;padding-bottom: 15px;}
 

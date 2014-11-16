@@ -16,5 +16,14 @@ a.btn {color: #fff;background: #b21212;text-transform: uppercase;width: 220px;}.
 
 .sub_title{text-align:center;
     /*color:#b11111;*/
-
-     }
+}
+.left {
+    width:65%;
+    float:left;
+    text-align: left;
+}
+.right {
+    width:35%;
+    float:right;
+    text-align: right;
+}

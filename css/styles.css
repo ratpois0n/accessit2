@@ -65,7 +65,13 @@ footer .inner {position: relative;max-width: 300px;margin: 0 auto;}
 .container {padding-top: 15px;padding-bottom: 15px;}
 
 form {padding: 15px;max-width: 400px;margin: 0 auto;}
+#search {margin-top: 15px;}
 #search tr {background-color:#b21212; color:white; font-weight: bold;}
-.jumbotron {background-color: white;}
+
+
+.jumbotron {background-color: #fff;}
+.search .jumbotron {padding-top: 0;}
 .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {background-color:#b21212;}
-a {color:#b21212;}
+.search a {color:#fff;}
+.search .h2 {font-size: 20px;margin: 0;text-transform:uppercase;margin-bottom: 8px;}
+.search .h3 {margin: 0;}

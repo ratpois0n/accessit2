@@ -65,3 +65,7 @@ footer .inner {position: relative;max-width: 300px;margin: 0 auto;}
 .container {padding-top: 15px;padding-bottom: 15px;}
 
 form {padding: 15px;max-width: 400px;margin: 0 auto;}
+#search tr {background-color:#b21212; color:white; font-weight: bold;}
+.jumbotron {background-color: white;}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {background-color:#b21212;}
+a {color:#b21212;}

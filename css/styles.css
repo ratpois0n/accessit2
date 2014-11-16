@@ -29,8 +29,8 @@ a.btn {color: #fff;background: #b21212;text-transform: uppercase;width: 220px;}.
     text-align: right;
 }
 h3 {margin-top: 0;margin-bottom: 0;}
-a.btn {color: #fff;background: #b21212;text-transform: uppercase;}
-a.btn:hover {color: #000;}
+a.btn, button.btn {color: #fff;background: #b21212;text-transform: uppercase;}
+a.btn:hover, button.btn:hover {color: #000;}
 .mt15 {margin-top: 15px;}
 
 .access {margin-bottom: 15px;}
@@ -47,10 +47,15 @@ a.btn:hover {color: #000;}
 .doors_button_wrap .doors_wrap img.steps {margin-top: 100px;}
 
 .buttons {}
-.buttons a.btn {float: none;display: block;margin: 0 auto;max-width: 200px;margin-top: 15px;}
+.buttons a.btn, .buttons button.btn {float: none;display: block;margin: 0 auto;max-width: 200px;margin-top: 15px;}
+
+form input, form select {background: #ccc !important;}
+input[placeholder], [placeholder], *[placeholder], 
+*::-webkit-input-placeholder, *:-moz-input-placeholder, *::-moz-input-placeholder, *:-ms-input-placeholder { color: #555 !important;}
 
 footer.panel {position: fixed;bottom: 0;margin: 0;width: 100%;background: #ccc;}
 footer.panel a {width: 25%;display: block;float: left;height: 60px;color: #000;text-align: center;font-size: 10px;}
+footer .inner {position: relative;max-width: 300px;margin: 0 auto;}
 .icon {height: 30px;width: 30px;margin: 0 auto;margin-top: 8px;background-size: contain;background-repeat: no-repeat;background-position: 50% 50%;margin-bottom: 5px;}
 .icon.faq {background-image:url('../img/faq.png');}
 .icon.scholarships {background-image:url('../img/scholarships.png');}

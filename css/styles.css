@@ -51,7 +51,7 @@ a.btn:hover, button.btn:hover {color: #000;}
 
 form input, form select {background: #ccc !important;}
 input[placeholder], [placeholder], *[placeholder], 
-*::-webkit-input-placeholder, *:-moz-input-placeholder, *::-moz-input-placeholder, *:-ms-input-placeholder { color: #555 !important;}
+::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder { color: #555 !important;}
 
 footer.panel {position: fixed;bottom: 0;margin: 0;width: 100%;background: #ccc;}
 footer.panel a {width: 25%;display: block;float: left;height: 60px;color: #000;text-align: center;font-size: 10px;}
